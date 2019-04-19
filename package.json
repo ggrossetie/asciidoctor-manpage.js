@@ -1,6 +1,6 @@
 {
   "name": "@asciidoctor/manpage-converter",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Man(ual) page converter for Asciidoctor.js",
   "main": "dist/main.js",
   "engines": {
