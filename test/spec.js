@@ -5,7 +5,7 @@ const expect = chai.expect
 
 describe('Rendering', () => {
   it('should produce a manpage document when backend=manpage', () => {
-    const options = { attributes: { backend: 'manpage', doctype: 'book' }, standalone: true }
+    const options = { attributes: { backend: 'manpage', doctype: 'book', reproducible: '' }, standalone: true }
     const content = `= asciidoctor(1)
 Dan Allen; Sarah White; Ryan Waldron
 :doctype: manpage
@@ -35,12 +35,11 @@ Free use of this software is granted under the terms of the MIT License.`
 .\\"     Title: asciidoctor
 .\\"    Author: Dan Allen, Sarah White, Ryan Waldron
 .\\" Generator: Asciidoctor 2.0.0
-.\\"      Date: 2019-04-19
 .\\"    Manual: Asciidoctor Manual
 .\\"    Source: Asciidoctor 2.0.7
 .\\"  Language: English
 .\\"
-.TH "ASCIIDOCTOR" "1" "2019-04-19" "Asciidoctor 2.0.7" "Asciidoctor Manual"
+.TH "ASCIIDOCTOR" "1" "" "Asciidoctor 2.0.7" "Asciidoctor Manual"
 .ie \\n(.g .ds Aq \\(aq
 .el       .ds Aq '
 .ss \\n[.ss] 0
