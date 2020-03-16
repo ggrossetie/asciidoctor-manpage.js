@@ -34,7 +34,7 @@ Free use of this software is granted under the terms of the MIT License.`
     expect(manpage).to.equal(`'\\" t
 .\\"     Title: asciidoctor
 .\\"    Author: Dan Allen, Sarah White, Ryan Waldron
-.\\" Generator: Asciidoctor 2.0.0
+.\\" Generator: Asciidoctor 2.0.10
 .\\"    Manual: Asciidoctor Manual
 .\\"    Source: Asciidoctor 2.0.7
 .\\"  Language: English
