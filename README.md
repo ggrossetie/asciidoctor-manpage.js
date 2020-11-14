@@ -1,6 +1,6 @@
 # Man(ual) page converter for Asciidoctor.js
 
-[![Travis build status](http://img.shields.io/travis/Mogztter/asciidoctor-manpage.js.svg)](https://travis-ci.org/Mogztter/asciidoctor-manpage.js)
+[![Build status](https://github.com/Mogztter/asciidoctor-manpage.js/workflows/Build/badge.svg)](https://github.com/Mogztter/asciidoctor-manpage.js/actions?query=workflow%3ABuild)
 [![npm version](http://img.shields.io/npm/v/@asciidoctor/manpage-converter.svg)](https://www.npmjs.com/package/@asciidoctor/manpage-converter)
 
 ## Install
