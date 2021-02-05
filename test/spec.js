@@ -30,11 +30,12 @@ The asciidoctor(1) command converts the AsciiDoc source file(s) _FILE_ to HTML5,
 
 Copyright \\(C) 2012-2019 Dan Allen, Ryan Waldron, and the Asciidoctor Project.
 Free use of this software is granted under the terms of the MIT License.`
+    const generatorVersion = asciidoctor.getCoreVersion()
     const manpage = asciidoctor.convert(content, options)
     expect(manpage).to.equal(`'\\" t
 .\\"     Title: asciidoctor
 .\\"    Author: Dan Allen, Sarah White, Ryan Waldron
-.\\" Generator: Asciidoctor 2.0.10
+.\\" Generator: Asciidoctor ${generatorVersion}
 .\\"    Manual: Asciidoctor Manual
 .\\"    Source: Asciidoctor 2.0.7
 .\\"  Language: English
